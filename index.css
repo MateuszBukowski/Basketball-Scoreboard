@@ -1,8 +1,63 @@
 body {
     margin: 0;
+    background-color: #1B244A;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
 }
+
+.columnName {
+    color: #EEEEEE;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin: 10px auto;
+    
+}
+
+.score {
+    background-color: #080001;
+    color: #F94F6D;
+    text-align: center;
+    font-weight: normal;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding: 20px 30px 10px 30px;
+    margin: 10px auto 20px auto;   
+    border-radius: 5px;                                         
+}
+
+.addBtns {
+  background-color: #1B244A;
+  border: 1px solid #9AABD8;
+  color: #9AABD8;
+  border-radius: 5px;
+  padding: 6px 8px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  margin: auto 2px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#newGameBtn {
+    background-color: #1B244A;
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+    padding: 6px 12px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+}
+
